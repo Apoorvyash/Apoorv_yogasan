@@ -1,4 +1,4 @@
-package com.jyotimoykashyap.runanddetect
+package com.apoorv.runanddetect
 
 import android.graphics.Canvas
 import android.graphics.Color

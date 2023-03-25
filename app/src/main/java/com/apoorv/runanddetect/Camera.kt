@@ -1,4 +1,4 @@
-package com.jyotimoykashyap.runanddetect
+package com.apoorv.runanddetect
 
 import android.content.Context
 import android.content.ContextWrapper
@@ -6,9 +6,7 @@ import android.content.Intent
 import android.graphics.*
 import android.net.Uri
 import android.os.Bundle
-import android.util.DisplayMetrics
 import android.util.Log
-import android.util.Size
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.camera.core.CameraSelector
@@ -23,7 +21,7 @@ import com.google.mlkit.vision.pose.Pose
 import com.google.mlkit.vision.pose.PoseDetection
 import com.google.mlkit.vision.pose.PoseLandmark
 import com.google.mlkit.vision.pose.accurate.AccuratePoseDetectorOptions
-import com.jyotimoykashyap.runanddetect.databinding.ActivityCameraBinding
+import com.apoorv.runanddetect.databinding.ActivityCameraBinding
 import java.io.File
 import java.io.FileOutputStream
 import java.io.IOException

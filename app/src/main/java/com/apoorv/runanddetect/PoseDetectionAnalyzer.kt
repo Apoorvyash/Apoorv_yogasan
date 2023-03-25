@@ -1,4 +1,4 @@
-package com.jyotimoykashyap.runanddetect
+package com.apoorv.runanddetect
 
 import android.annotation.SuppressLint
 import android.util.Log
@@ -101,7 +101,16 @@ class PoseDetectionAnalyzer() : ImageAnalysis.Analyzer{
 
             Log.d("MyCamera" ,
                 "Nose : x "  + rightShoulderX.toString() + "Nose : y "  + rightShoulderY.toString())
+            val rightKneeX = rightKnee.position.x
+            val rightKneeY = rightKnee.position.y
 
+            Log.d("MyCamera" ,
+                "Right Knee : x "  + rightKneeX.toString() + "Right Shoulder : y "  + rightKneeY.toString())
+            val leftKneeX = leftKnee.position.x
+            val leftKneeY = leftKnee.position.y
+
+            Log.d("MyCamera" ,
+                "Right Knee : x "  + rightKneeX.toString() + "Right Shoulder : y "  + rightKneeY.toString())
             // adding graphic overlay
 //            view.clear()
 //            allPoseLandmarks.forEach{

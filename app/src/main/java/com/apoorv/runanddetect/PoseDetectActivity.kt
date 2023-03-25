@@ -1,21 +1,17 @@
-package com.jyotimoykashyap.runanddetect
+package com.apoorv.runanddetect
 
 import android.animation.ObjectAnimator
 import android.content.ContentResolver
-import android.content.Intent
 import android.graphics.Bitmap
 import android.graphics.BitmapFactory
 import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.provider.MediaStore
 import android.util.Log
 import android.view.View
 import android.view.animation.AccelerateDecelerateInterpolator
 import androidx.core.net.toUri
-import com.google.mlkit.vision.common.InputImage
-import com.jyotimoykashyap.runanddetect.databinding.ActivityPoseDetectBinding
-import kotlinx.coroutines.delay
+import com.apoorv.runanddetect.databinding.ActivityPoseDetectBinding
 
 class PoseDetectActivity : AppCompatActivity() {
 
@@ -27,9 +23,7 @@ class PoseDetectActivity : AppCompatActivity() {
 
 
         val extra = intent.extras
-
         Log.d("MyCamera" , extra?.getString("URI") + "   :  File path")
-
         val filePath = extra?.getString("URI")
         val angleText = extra?.getString("Info")
 

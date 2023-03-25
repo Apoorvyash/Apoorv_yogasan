@@ -1,4 +1,4 @@
-package com.jyotimoykashyap.runanddetect.Authentication
+package com.apoorv.runanddetect.Authentication
 
 import android.os.Bundle
 import android.text.Editable
@@ -11,8 +11,8 @@ import android.widget.Toast
 import androidx.navigation.fragment.findNavController
 import com.google.android.material.transition.MaterialElevationScale
 import com.google.firebase.auth.FirebaseAuth
-import com.jyotimoykashyap.runanddetect.R
-import com.jyotimoykashyap.runanddetect.databinding.FragmentSignUpBinding
+import com.apoorv.runanddetect.R
+import com.apoorv.runanddetect.databinding.FragmentSignUpBinding
 
 
 private const val ARG_PARAM1 = "param1"

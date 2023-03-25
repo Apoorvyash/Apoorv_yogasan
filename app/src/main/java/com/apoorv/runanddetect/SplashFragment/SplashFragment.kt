@@ -1,4 +1,4 @@
-package com.jyotimoykashyap.runanddetect.SplashFragment
+package com.apoorv.runanddetect.SplashFragment
 
 import android.os.Bundle
 import android.os.Handler
@@ -7,12 +7,11 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import androidx.navigation.fragment.FragmentNavigatorExtras
 import androidx.navigation.fragment.findNavController
 import com.google.android.material.transition.MaterialElevationScale
 import com.google.firebase.auth.FirebaseAuth
-import com.jyotimoykashyap.runanddetect.R
-import com.jyotimoykashyap.runanddetect.databinding.FragmentSplashBinding
+import com.apoorv.runanddetect.R
+import com.apoorv.runanddetect.databinding.FragmentSplashBinding
 
 
 private const val ARG_PARAM1 = "param1"

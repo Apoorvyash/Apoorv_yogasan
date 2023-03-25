@@ -1,4 +1,4 @@
-package com.jyotimoykashyap.runanddetect.IntroFragment
+package com.apoorv.runanddetect.IntroFragment
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -6,8 +6,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import com.google.android.material.transition.MaterialElevationScale
-import com.jyotimoykashyap.runanddetect.R
-import com.jyotimoykashyap.runanddetect.databinding.FragmentGuideBinding
+import com.apoorv.runanddetect.databinding.FragmentGuideBinding
 
 
 private const val ARG_PARAM1 = "param1"
@@ -29,7 +28,6 @@ class GuideFragment : Fragment() {
             param2 = it.getString(ARG_PARAM2)
         }
     }
-
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,
                               savedInstanceState: Bundle?): View? {
         // Inflate the layout for this fragment

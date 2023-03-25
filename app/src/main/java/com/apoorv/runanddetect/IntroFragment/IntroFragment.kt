@@ -1,4 +1,4 @@
-package com.jyotimoykashyap.runanddetect.IntroFragment
+package com.apoorv.runanddetect.IntroFragment
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -14,8 +14,8 @@ import com.google.android.material.shape.MaterialShapeDrawable
 import com.google.android.material.textview.MaterialTextView
 import com.google.android.material.transition.MaterialElevationScale
 import com.google.firebase.auth.FirebaseAuth
-import com.jyotimoykashyap.runanddetect.R
-import com.jyotimoykashyap.runanddetect.databinding.FragmentIntroBinding
+import com.apoorv.runanddetect.R
+import com.apoorv.runanddetect.databinding.FragmentIntroBinding
 import pub.devrel.easypermissions.AppSettingsDialog
 import pub.devrel.easypermissions.EasyPermissions
 

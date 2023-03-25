@@ -1,8 +1,8 @@
-package com.jyotimoykashyap.runanddetect
+package com.apoorv.runanddetect
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.jyotimoykashyap.runanddetect.databinding.ActivityMainBinding
+import com.apoorv.runanddetect.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
 
