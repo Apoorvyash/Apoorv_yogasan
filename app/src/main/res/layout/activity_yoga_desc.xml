@@ -114,7 +114,7 @@ Stay in this position for some time with normal breathing.2,3 "
             android:layout_marginStart="5dp"
             android:contentDescription="@string/guard"
             android:elevation="24dp"
-            android:src="@drawable/yoga1"
+            android:src="@drawable/work"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/text_yoga" />

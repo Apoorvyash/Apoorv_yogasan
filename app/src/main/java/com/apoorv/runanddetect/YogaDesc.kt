@@ -7,6 +7,7 @@ import android.telecom.Call.Details
 import android.widget.Button
 import android.widget.ImageView
 import android.widget.TextView
+import com.apoorv.runanddetect.IntroFragment.IntroFragment
 
 class YogaDesc : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -14,12 +15,14 @@ class YogaDesc : AppCompatActivity() {
         setContentView(R.layout.activity_yoga_desc)
         val btn=findViewById<Button>(R.id.button)
         btn.setOnClickListener{
-            val intent= Intent(this, MainActivity::class.java)
+            val intent= Intent(this, TimerActivity::class.java)
             startActivity(intent)
         }
         val btn2=findViewById<Button>(R.id.buttoncam)
+
+
         btn2.setOnClickListener{
-            val intent= Intent(this, TimerActivity::class.java)
+            val intent= Intent(this, MainActivity::class.java)
             startActivity(intent)
         }
         val Yoganame=intent.getStringExtra("name")

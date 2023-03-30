@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Medicine Notifier</string>
+
+    <!--Strings for Smart Talk-->
+    <string name="creating_of_new_medicine">New Medicine</string>
+
+    <!--Strings for medicine_list_item.xml-->
+    <string name="medicine_name">Medicine</string>
+    <string name="medicine_times">No. of Times</string>
+    <string name="medicine_num_in_container">Medicine_num</string>
+    <string name="first_notification">". Первое напоминание в "</string>
+    <string name="medicines_left">Осталось таблеток: </string>
+
+    <!--Strings for add_medicine_fragment.xml-->
+    <string name="medicine_form_info">Настройка уведомлений</string>
+    <string name="medicine_name_question">Название лекарства</string>
+    <string name="number_of_medicines_in_container_question">Таблеток в контейнере</string>
+    <string name="medicine_critical_number_question">Пороговое значение таблеток</string>
+    <string name="medicine_dose_question">Дозировка</string>
+    <string name="times_per_day_question">Раз в день:</string>
+    <string name="first_notification_time_question">Время первого уведомления:</string>
+    <string name="create_medicine_notification">Создать напоминание!</string>
+    <string name="update_medicine_notification">Обновить напоминание!</string>
+    <string name="stop_medicine_notification">Приостановить напоминание!</string>
+    <string name="continue_medicine_notification">Продолжить напоминание!</string>
+    <string name="delete_medicine_notification">Удалить напоминание!</string>
+    <string name="take_medicine_button">Принять</string>
+    <string name="delete_medicine_button">Удалить</string>
+    <string name="treatment">Уведомления</string>
+    <string name="stats">Статистика</string>
+    <string name="connection">Связь</string>
+    <string name="settings">Настройки</string>
+    <string name="container_form_info">Настройка контейнера</string>
+    <string name="cell_question">Ячейка</string>
+
+    <!--Strings for spinner-->
+    <string-array name="times_per_day">
+        <item>Один раз в день</item>
+        <item>Два раза в день</item>
+        <item>Три раза в день</item>
+        <item>Четыре раза в день</item>
+    </string-array>
+
+    <string-array name="cell_array">
+        <item>Ячейка 1</item>
+        <item>Ячейка 2</item>
+        <item>Ячейка 3</item>
+        <item>Ячейка 4</item>
+        <item>Ячейка 5</item>
+        <item>Ячейка 6</item>
+        <item>Ячейка 7</item>
+    </string-array>
+
+    <!--Errors-->
+    <string name="name_error">Введите имя лекарства!</string>
+    <string name="items_error">Введите количество таблеток в контейнере!</string>
+    <string name="critical_error">Введите пороговое значение таблеток!</string>
+    <string name="dose_error">Введите дозировку!</string>
+    <string name="cell_error">Выберите ячейку!</string>
+
+    <string name="empty">Нет доступных курсов лечения.</string>
+
+    <string name="item_deleted">Лекарство удалено!</string>
+    <string name="item_paused">Уведомления приостановлены!</string>
+    <string name="item_already_paused">Уведомления уже приостановлены!</string>
+    <string name="item_already_working">Уведомления уже активны!</string>
+    <string name="notifications_active">Уведомления активны</string>
+    <string name="empty_image_with_a_calendar_and_pills">Картинка с календариком и таблетками</string>
+
+    <string name="notification_title">Medicine Notifier</string>
+    <string name="notification_message">Не забудьте принять</string>
+
+    <string name="take_medicine">Принять лекарство!</string>
+    <string name="warning_text">Внимание! Таблеток в контейнере мало!</string>
+    <string name="warning">warning</string>
+    <string name="zero_error">Таблекток недостаточно</string>
+    <string name="container_question">Использовать контейнер?</string>
+    <string name="add_fab">Добавить</string>
+
+    <string name="cell_number">Ячейка</string>
+    <string name="mqtt_broker">Брокер MQTT</string>
+    <string name="port_number">Номер порта</string>
+    <string name="update_settings">Обновить настройки</string>
+    <string name="mqtt_settings">Настройки MQTT</string>
+    <string name="use_mqtt">Использовать MQTT?</string>
+    <string name="try_to_connect">Подключиться</string>
+    <string name="disconnect">Отключиться</string>
+    <string name="taken_today">Принято сегодня:</string>
+
+    <string name="connected">Подключено!</string>
+    <string name="disconnected">Отключено!</string>
+
+    <string name="change_take">Изменить или принять лекарство</string>
+    <string name="add_medicine">Создать напоминание</string>
+</resources>
